@@ -3,7 +3,6 @@ import React from 'react';
 import InputComponent from "../InputComponent.jsx";
 import { useForm } from "../../hooks/useForm";
 import AuthButton from "../button/AuthButton.jsx";
-import './auth.css';
 import axios from "axios";
 
 const LoginScreen = ({ onAuth }) => {
